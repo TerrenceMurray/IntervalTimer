@@ -1,7 +1,5 @@
 ![Interval](https://user-images.githubusercontent.com/52611990/228329492-2ab139f6-a9c6-4483-a8db-dadfadcec790.png)
 
-# Interval Timer :watch:
-
 A web application that helps you keep track of your workouts or other timed activities using customizable intervals. With **Interval Timer**, you can easily create and save your own workout routines.
 
 ## Features
