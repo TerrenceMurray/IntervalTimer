@@ -11,10 +11,12 @@ View your workout history.
 
 ## Technologies Used
 
-- Nextjs 13
+- Next.js 13
 - Typescript
 - TailwindCSS
 - Bootstrap Icons
+- Pocketbase
+- shadcn/ui
 - NodeJS
 
 ## Getting Started
