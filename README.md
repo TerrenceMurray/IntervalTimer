@@ -11,7 +11,7 @@ View your workout history.
 
 ## Technologies Used
 
-- React
+- Nextjs 13
 - Typescript
 - TailwindCSS
 - Bootstrap Icons
