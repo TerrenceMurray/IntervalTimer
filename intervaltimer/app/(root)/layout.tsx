@@ -4,6 +4,7 @@ import { Inter } from "next/font/google";
 import SidebarNavigation from '@/components/shared/SidebarNavigation';
 import '@/app/globals.css';
 import 'bootstrap-icons/font/bootstrap-icons.min.css';
+import Topbar from '@/components/shared/Topbar';
 
 const inter = Inter({
 	subsets: ["latin"]
@@ -24,7 +25,8 @@ export default function RootLayout({ children } : Props) {
 	  <html lang='en'>
 		  <body className={`${inter.className} w-full h-screen flex p-6 bg-black-100 text-white-100`}>
 			  	<SidebarNavigation />
-			  	<main className='px-6 py-4'>
+			  <main className='px-6 py-4 flex flex-col gap-10'>
+				  <Topbar />
 				  {children}
 				</main>
 		  </body>
