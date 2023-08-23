@@ -1,6 +1,9 @@
 import { Metadata } from 'next';
 import React, { ReactNode } from 'react'
 import { Inter } from "next/font/google";
+import SidebarNavigation from '@/components/shared/SidebarNavigation';
+import '@/app/globals.css';
+import 'bootstrap-icons/font/bootstrap-icons.min.css';
 
 const inter = Inter({
 	subsets: ["latin"]
@@ -18,9 +21,10 @@ interface Props
 
 export default function RootLayout({ children } : Props) {
   return (
-	  <html>
-		  <body className={inter.className}>
-			  	<main>
+	  <html lang='en'>
+		  <body className={`${inter.className} w-full h-screen flex p-6 bg-black-100 text-white-100`}>
+			  	<SidebarNavigation />
+			  	<main className='px-6 py-4'>
 				  {children}
 				</main>
 		  </body>
