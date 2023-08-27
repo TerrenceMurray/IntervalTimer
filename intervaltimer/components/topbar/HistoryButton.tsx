@@ -1,11 +1,12 @@
 'use client';
 import React, { ReactNode } from 'react';
 import { useRouter } from 'next/navigation';
+import { Progress } from '@/hooks/useHistory';
 
 interface Props {
 	className?: string;
 	children: ReactNode;
-	direction: 'forward' | 'reverse';
+	goTo: Progress;
 }
 
 /**
@@ -14,18 +15,26 @@ interface Props {
  */
 
 export default function HistoryButton({
-	direction,
+	goTo,
 	className,
 	children,
 }: Props) {
+	const disabledStyles = 'opacity-50 cursor-not-allowed';
 	const router = useRouter();
 
 	const onClickHandler = (): void => {
-		direction === 'forward' ? router.forward() : router.back();
+		if (goTo !== null) router.push(goTo);
+		console.log(goTo);
 	};
 
 	return (
-		<button type="button" onClick={onClickHandler} className={className ?? ''}>
+		<button
+			type="button"
+			onClick={onClickHandler}
+			className={`${className ?? ''} ${
+				goTo === null && disabledStyles
+			}`}
+		>
 			{children}
 		</button>
 	);
