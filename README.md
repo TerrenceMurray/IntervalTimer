@@ -1,30 +1,30 @@
-![Interval](https://user-images.githubusercontent.com/52611990/228329492-2ab139f6-a9c6-4483-a8db-dadfadcec790.png)
+![Discover - Desktop](https://github.com/TerrenceMurray/IntervalTimer/assets/52611990/2d0c3377-768c-4f1d-9c47-a4d750bf604d)
 
-A web application that helps you keep track of your workouts or other timed activities using customizable intervals. With **Interval Timer**, you can easily create and save your own workout routines.
+## Interval Timer 🕒
 
-## Features
+Description: Interval Timer is a web application designed to help users keep track of their workouts or timed activities using customizable intervals. Whether you're into fitness training, HIIT sessions, or any other timed activity, Interval Timer lets you create and save custom workouts tailored to your preferences.
+Features 🚀
 
-Create and save custom interval workouts with customizable intervals and rest periods.
-Choose from a few preset workouts to get started quickly.
-Pause and resume your workouts as needed.
-View your workout history.
+    Customizable Workouts: Create and save custom interval workouts with personalized intervals and rest periods.
+    Preset Workouts: Choose from a selection of preset workouts to jumpstart your training sessions.
+    Pause and Resume: Pause and resume your workouts whenever needed to fit your schedule.
+    Workout History: Easily track and review your workout history to monitor progress.
 
-## Technologies Used
+# Technologies Used 💻
 
-- Next.js 13
-- Typescript
-- TailwindCSS
-- Bootstrap Icons
-- Pocketbase
-- shadcn/ui
-- NodeJS
+    Next.js 14
+    TypeScript
+    Tailwind CSS
+    Pocketbase
+    shadcn/ui
 
-## Getting Started
+# Getting Started 🏃‍♂️
 
-To use Interval Timer, simply visit the website and start creating your custom interval workouts or choose from a variety of preset workouts. No sign-up or account creation required.
+    Clone the repository.
+    Install dependencies using npm install or yarn install.
+    Start the application with npm start or yarn start.
 
-## Contact Me
+To use Interval Timer, simply visit the website and begin creating your custom interval workouts or explore the preset options. No sign-up or account creation required.
+Contact Us 📧
 
-If you have any questions, feedback, or issues with our application, please don't hesitate to reach out to us. You can contact us through one of the following channels:
-
-- [Email](terrencemurray004@gmail.com): terrencemurray004@gmail.com
+If you have any questions, feedback, or encounter any issues with our application, please feel free to reach out to us via email at terrencemurray004@gmail.com. We appreciate your feedback and are here to assist you.
