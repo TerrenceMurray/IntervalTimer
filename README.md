@@ -1,6 +1,6 @@
 ![Discover - Desktop](https://github.com/TerrenceMurray/IntervalTimer/assets/52611990/2d0c3377-768c-4f1d-9c47-a4d750bf604d)
 
-### Interval Timer 🕒
+# Interval Timer 🕒
 
 A web application designed to help users keep track of their workouts or timed activities using customizable intervals. Whether you're into fitness training, HIIT sessions, or any other timed activity, Interval Timer lets you create and save custom workouts tailored to your preferences.
 
@@ -21,10 +21,10 @@ A web application designed to help users keep track of their workouts or timed a
 
 ## Getting Started 🏃‍♂️
 
-# Install
+### Install
 ``yarn install or npm install``
 
-# Run
+### Run
 ``yarn start or npm start``    
     
 To use Interval Timer, simply visit the website and begin creating your custom interval workouts or explore the preset options.
