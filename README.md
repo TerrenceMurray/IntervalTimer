@@ -1,28 +1,34 @@
-![Interval](https://user-images.githubusercontent.com/52611990/228329492-2ab139f6-a9c6-4483-a8db-dadfadcec790.png)
+# Interval Timer 🕒
 
-A web application that helps you keep track of your workouts or other timed activities using customizable intervals. With **Interval Timer**, you can easily create and save your own workout routines.
+A web application designed to help users keep track of their workouts or timed activities using customizable intervals. Whether you're into fitness training, HIIT sessions, or any other timed activity, Interval Timer lets you create and save custom workouts tailored to your preferences.
 
-## Features
+![Discover - Desktop](https://github.com/TerrenceMurray/IntervalTimer/assets/52611990/2d0c3377-768c-4f1d-9c47-a4d750bf604d)
 
-Create and save custom interval workouts with customizable intervals and rest periods.
-Choose from a few preset workouts to get started quickly.
-Pause and resume your workouts as needed.
-View your workout history.
+## Features 🚀
 
-## Technologies Used
+- Customizable Workouts: Create and save custom interval workouts with personalized intervals and rest periods.
+- Preset Workouts: Choose from a selection of preset workouts to jumpstart your training sessions.
+- Pause and Resume: Pause and resume your workouts whenever needed to fit your schedule.
+- Workout History: Easily track and review your workout history to monitor progress.
 
-- Nextjs 13
-- Typescript
-- TailwindCSS
-- Bootstrap Icons
-- NodeJS
+## Technologies Used 💻
 
-## Getting Started
+- Next.js 14
+- TypeScript
+- Tailwind CSS
+- Pocketbase
+- shadcn/ui
 
-To use Interval Timer, simply visit the website and start creating your custom interval workouts or choose from a variety of preset workouts. No sign-up or account creation required.
+## Getting Started 🏃‍♂️
 
-## Contact Me
+### Install
+``yarn install or npm install``
 
-If you have any questions, feedback, or issues with our application, please don't hesitate to reach out to us. You can contact us through one of the following channels:
+### Run
+``yarn start or npm start``    
+    
+To use Interval Timer, simply visit the website and begin creating your custom interval workouts or explore the preset options.
 
-- [Email](terrencemurray004@gmail.com): terrencemurray004@gmail.com
+## Contact Us 📧
+
+If you have any questions, feedback, or encounter any issues with our application, please feel free to reach out to us via email at terrencemurray004@gmail.com. We appreciate your feedback and are here to assist you.
